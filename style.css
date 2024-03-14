@@ -1,0 +1,256 @@
+* {
+    margin: 0px;
+    padding: 0px;
+}
+
+:root {
+    --brown: rgb(90, 22, 22)
+}
+
+body {
+    overflow-x: hidden;
+}
+
+#logo {
+    width: 50%;
+    height: 50%;
+}
+
+ul li {
+    font-size: 20px;
+}
+
+li i {
+    color: rgba(188, 188, 188, 0.847);
+}
+
+#contact {
+    background-color: brown;
+    color: white;
+}
+
+#contact:hover {
+    background-color: white;
+    color: brown;
+    border-color: brown;
+
+}
+
+/* @media(min-width:992px){
+    ul{
+        display: flex;
+        align-items: center;
+    }
+} */
+@media(min-width:992px) {
+    .nav-item i {
+        display: none;
+
+    }
+}
+
+@media(max-width:992px) {
+    li i {
+        visibility: hidden;
+    }
+}
+
+.main {
+    background-image: url('./images/furniture.jpeg');
+    width: 100%;
+    height: 100vh;
+    background-size: cover;
+    background-position: bottom;
+    background-attachment: fixed;
+}
+
+.bg {
+    width: 100%;
+    height: 100vh;
+    background-color: rgba(0, 0, 0, 0.499);
+}
+
+.welcome p {
+    color: white;
+    font-size: 30px;
+}
+
+.welcome {
+    padding-top: 20%;
+    padding-left: 10%;
+
+}
+
+.welcome h1 {
+    color: white;
+    font-size: 120px;
+    font-weight: 800px;
+}
+
+@media (max-width:600px) {
+
+    .welcome h1 {
+
+        font-size: 50px;
+        font-weight: 800px;
+    }
+}
+
+#contactbtn {
+    color: white;
+    border-color: white;
+}
+
+.work h1 {
+    text-align: center;
+    padding-bottom: 5%;
+    padding-top: 5%;
+}
+
+.viewBtn {
+    border-color: var(--brown);
+    color: var(--brown);
+}
+
+.viewBtn :hover {
+    background-color: rgb(30, 5, 30);
+    color: white;
+
+}
+
+#about {
+    background-color: rgb(163, 153, 153);
+    padding-top: 10%;
+    padding-bottom: 10%;
+}
+
+#aboutimg {
+    border: 7px solid var(--brown);
+    height: 490px;
+    ;
+    width: 100%;
+}
+
+#about {
+    color: var(--brown);
+}
+
+.hr {
+    width: 20%;
+    height: 7px;
+    background-color: var(--brown);
+}
+
+.projimg {
+    position: relative;
+}
+
+.rosewood {
+    display: flex;
+    align-items: center;
+    width: 40%;
+    color: white;
+    background-color: black;
+    position: absolute;
+    padding: 30px;
+    margin-top: 64%;
+    justify-content: center;
+}
+
+.cabimg {
+    position: relative;
+}
+
+.vicecab {
+    background-color: black;
+    color: white;
+    width: 40%;
+    padding: 10px;
+    position: absolute;
+    justify-content: center;
+    margin-top:-13.2%;
+    display: flex;
+    align-items: center;
+
+    
+    
+    
+}
+
+.sideimg {
+    position: relative;
+}
+
+.sidetable {
+    background-color: black;
+    color: white;
+    width: 40%;
+    padding: 10px;
+    position: absolute;
+    justify-content: center;
+    margin-top:-13.2%;
+
+    display: flex;
+    align-items: center;
+
+}
+
+.counterimg {
+    position: relative;
+}
+.walnut {    background-color: black;
+    color: white;
+    width: 40%;
+    padding: 10px;
+    position: absolute;
+    justify-content: center;
+    margin-top:-13.2%;
+
+    display: flex;
+    align-items: center;
+
+
+}
+.chairimg {
+    position: relative;
+}
+.chair {
+    background-color: black;
+    color: white;
+    width: 40%;
+    padding: 10px;
+    position: absolute;
+    justify-content: center;
+    margin-top:-13.2%;
+
+    display: flex;
+    align-items: center;
+
+
+}
+.diningimg {
+    position: relative;
+}
+
+.dining {
+    display: flex;
+    align-items: center;
+    width: 40%;
+    color: white;
+    background-color: black;
+    position: absolute;
+    padding: 30px;
+    margin-top: 64%;
+    justify-content: center;
+
+}
+
+.cardImg{
+    border-radius: 50%;
+}
+.footer{
+    /* height: 450px; */
+    width:100% ;
+    background-color: rgb(56, 39, 39);
+    margin-top: 8%;
+}
